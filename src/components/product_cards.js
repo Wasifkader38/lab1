@@ -16,4 +16,4 @@ function CardItem(props) {
   );
 }
 
-export default product_cards;
+export default CardItem;

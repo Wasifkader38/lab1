@@ -1,4 +1,4 @@
-import products from "../components/ProductList";
+import products from "../components/product_list";
 import React from "react";
 
 function Component() {
@@ -54,4 +54,4 @@ function Component() {
   );
 }
 
-export default component;
+export default Component;

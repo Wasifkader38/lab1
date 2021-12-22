@@ -1,50 +1,42 @@
 function initVoteCount() {
     return Math.floor(Math.random() * 50 + 15);
-  }
-  const products = [
-    {
-      id: 1,
-      title: "The Pickwick Papers",
-      description: "By Charles Dickens.",
-      url: "#",
-      votes: initVoteCount(),
-      submitterAvatarUrl:
-        "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTY2NTQ1NTM2OTM2MDYwMTQ2/charles-dickens.jpg",
-      productImageUrl:
-        "https://kbimages1-a.akamaihd.net/43b06cb3-bbe6-4733-8b42-39774911a9e6/353/569/90/False/the-pickwick-papers-123.jpg",
+}
+const products = [{
+        id: 1,
+        title: "Harry Potter",
+        description: "By J.K Rowling",
+        url: "#",
+        votes: initVoteCount(),
+        submitterAvatarUrl: "https://m.media-amazon.com/images/M/MV5BMTMxOTEwNDcxN15BMl5BanBnXkFtZTcwOTg0MTUzNA@@._V1_.jpg",
+        productImageUrl: "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SY475_.jpg",
     },
     {
-      id: 2,
-      title: "Oliver Twist",
-      description: " By Charles Dickens.",
-      url: "#",
-      votes: initVoteCount(),
-      submitterAvatarUrl:
-        "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTY2NTQ1NTM2OTM2MDYwMTQ2/charles-dickens.jpg",
-      productImageUrl: "https://m.media-amazon.com/images/I/51SH9vHXgtL.jpg",
+        id: 2,
+        title: "Game of Throne",
+        description: " By George R.R Martin",
+        url: "#",
+        votes: initVoteCount(),
+        submitterAvatarUrl: "http://learnenglish.britishcouncil.org/sites/podcasts/files/RS7522_ThinkstockPhotos-622015126-hig_0.jpg",
+        productImageUrl: "https://static-01.daraz.com.bd/p/129bfba08f3f76592107bd7692fccf61.jpg",
     },
     {
-      id: 3,
-      title: "Hamlet",
-      description: "By William Shakespeare.",
-      url: "#",
-      votes: initVoteCount(),
-      submitterAvatarUrl:
-        "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxNzgzMzkwNzMz/william-shakespeare-194895-1-402.jpg",
-      productImageUrl: "https://m.media-amazon.com/images/I/41ogY1y1smL.jpg",
+        id: 3,
+        title: "1984",
+        description: "By George Orwell.",
+        url: "#",
+        votes: initVoteCount(),
+        submitterAvatarUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6b/1984-Big-Brother.jpg",
+        productImageUrl: "https://static-01.daraz.com.bd/p/e9d8f8953dbd532c0b226fe0b4a0082b.jpg",
     },
     {
-      id: 4,
-      title: "Macbeth",
-      description: "By William Shakespeare.",
-      url: "#",
-      votes: initVoteCount(),
-      submitterAvatarUrl:
-        "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxNzgzMzkwNzMz/william-shakespeare-194895-1-402.jpg",
-      productImageUrl:
-        "https://images-na.ssl-images-amazon.com/images/I/71mwfvxaqsL.jpg",
+        id: 4,
+        title: "Angel & Demons",
+        description: "By Dan Brown.",
+        url: "#",
+        votes: initVoteCount(),
+        submitterAvatarUrl: "https://wallpaperaccess.com/full/4031303.jpg",
+        productImageUrl: "https://images-na.ssl-images-amazon.com/images/I/61d1QJ0tPhL.jpg",
     },
-  ];
-  
-  export default product_list;
-  
+];
+
+export default products;

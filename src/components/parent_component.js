@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import CardItem from "./Card";
+import CardItem from "./product_cards";
 
-class MainComponent extends Component {
+class parent_component extends component {
   state = {
     vote: [63, 54, 30, 61],
     name: [
